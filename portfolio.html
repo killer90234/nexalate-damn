@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Our Best Projects | Nexalate Gujarat IT Solutions</title>
+    <meta name="description" content="Explore Nexalate's portfolio of successful IT projects including web development, mobile apps, and enterprise software solutions across Gujarat.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <i class="fas fa-code"></i>
+                    <span>Nexalate</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="services.html#web-development">Web Development</a>
+                        <a href="services.html#app-development">App Development</a>
+                        <a href="services.html#software-development">Software Development</a>
+                        <a href="services.html#support-amc">Support & AMC</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Showcasing successful projects across industries in Gujarat</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="software">Software</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid-section">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="ecommerce web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Gujarat Textiles E-commerce Platform">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#project1" class="view-project"><i class="fas fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Gujarat Textiles E-commerce Platform</h3>
+                            <p class="project-type">E-commerce | Web Development</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Payment Gateway</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Surat Bank Mobile App">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#project2" class="view-project"><i class="fas fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Surat Regional Bank Mobile App</h3>
+                            <p class="project-type">Mobile Banking | Financial Services</p>
+                            <div class="project-tags">
+                                <span>React Native</span>
+                                <span>Security</span>
+                                <span>APIs</span>
+                                <span>Banking</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="software">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Vadodara Industries ERP">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#project3" class="view-project"><i class="fas fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Vadodara Industries ERP System</h3>
+                            <p class="project-type">Enterprise Software | Manufacturing</p>
+                            <div class="project-tags">
+                                <span>Java</span>
+                                <span>Spring Boot</span>
+                                <span>Oracle DB</span>
+                                <span>ERP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Rajkot Engineering Website">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#project4" class="view-project"><i class="fas fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Rajkot Engineering Corp Website</h3>
+                            <p class="project-type">Corporate Website | Engineering</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="ecommerce mobile">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/1927574/pexels-photo-1927574.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Diamond Trading App">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#project5" class="view-project"><i class="fas fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Diamond Trading Mobile App</h3>
+                            <p class="project-type">E-commerce | Jewelry Trading</p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>Real-time</span>
+                                <span>Trading</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="web software">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Hospital Management System">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#project6" class="view-project"><i class="fas fa-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Ahmedabad Hospital Management</h3>
+                            <p class="project-type">Healthcare Software | Web Application</p>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Healthcare</span>
+                                <span>Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div id="project1" class="project-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Gujarat Textiles Platform">
+                </div>
+                <div class="modal-text">
+                    <h2>Gujarat Textiles E-commerce Platform</h2>
+                    <div class="project-details">
+                        <h3>Problem</h3>
+                        <p>A leading textile manufacturer in Surat needed to expand their reach beyond traditional wholesale channels and establish a direct-to-consumer online presence to compete with modern e-commerce platforms.</p>
+                        
+                        <h3>Solution</h3>
+                        <p>We developed a comprehensive e-commerce platform featuring advanced inventory management, real-time order tracking, integrated payment gateways, and mobile-responsive design to serve both wholesale and retail customers.</p>
+                        
+                        <h3>Technology Stack</h3>
+                        <div class="tech-stack">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>Razorpay</span>
+                            <span>AWS</span>
+                        </div>
+                        
+                        <h3>Results</h3>
+                        <ul class="results-list">
+                            <li>300% increase in online orders within 6 months</li>
+                            <li>Reduced order processing time by 60%</li>
+                            <li>Expanded customer base across 15 states</li>
+                            <li>95% customer satisfaction rating</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Client Success Stats -->
+    <section class="portfolio-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>500+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3>200+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>98%</h3>
+                    <p>On-Time Delivery</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-star"></i>
+                    <h3>4.9/5</h3>
+                    <p>Client Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's create the next success story together. Contact us to discuss your requirements.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                    <a href="about.html" class="btn btn-outline">Learn About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        <span>Nexalate</span>
+                    </div>
+                    <p>Gujarat's leading IT solutions provider, delivering innovative technology solutions since 2019.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#web-development">Web Development</a></li>
+                        <li><a href="services.html#app-development">App Development</a></li>
+                        <li><a href="services.html#software-development">Software Development</a></li>
+                        <li><a href="services.html#support-amc">Support & AMC</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Ahmedabad, Gujarat, India</p>
+                        <p><i class="fas fa-phone"></i> +91 99999 99999</p>
+                        <p><i class="fas fa-envelope"></i> info@nexalate.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nexalate. All rights reserved. | IT Solutions in Gujarat</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
